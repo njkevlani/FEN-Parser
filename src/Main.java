@@ -11,8 +11,7 @@ public class Main {
         OutputStream outputStream = System.out;
         BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
         PrintWriter out = new PrintWriter(outputStream);
-        TaskG solver = new TaskG();
-        //call solv(int testNumber, InputReader in, PrintWriter out)
+        TaskG solver = new TaskG();       
         String inStr = in.readLine();
         int board[][] = solver.FEN2Matrix(inStr);
         for(int i=0;i<8;i++){
